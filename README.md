@@ -19,6 +19,9 @@ But what then? `Trash`? `Private`? These seem inadapted.
 This is where the **Unpublished** (unpublish) post status provided by this plugin comes into play.  
 It allows content publishers to assign a dedicated status to content they desire not to be published, and avoid assigning a semantically inaccurate status.
 
+### Installation
+Upload the plugin files to the `/wp-content/plugins/wp-unpublish` directory of your Wordpress installation.
+
 ### Deactivate and Uninstall
 
 When deactivated, all the posts maked Unpublished are not accessible anymore in the wordpress Admin Dashboard.  
