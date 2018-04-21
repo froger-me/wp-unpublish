@@ -1,6 +1,6 @@
-# Unpublish - simple & useful post status for your workflow
+# WP-Unpublish - simple & useful post status for your workflow
 
-Unpublish adds a post status "Unpublished" to your Wordpress Posts.
+WP-Unpublish adds a post status "Unpublished" to your Wordpress Posts.
 
 Consider the 8 default post statuses that WordPress uses by default:
 - **Publish**: Viewable by everyone. (publish)
@@ -26,7 +26,7 @@ When uninstalled, all the posts maked Unpublished are marked Private.
 
 ## Hooks - filters
 
-Unpublish gives developers the possibilty to debug the plugin using a filter (use un-minified javascript).
+WP-Unpublish gives developers the possibilty to debug the plugin using a filter (use un-minified javascript).
 ___ 
 
 ```php
