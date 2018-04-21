@@ -9,7 +9,7 @@ class WP_Unpublish {
 	public function __construct() {
 
 		// Uninstall cleanup
-		register_uninstall_hook( UNPUBLISH_PLUGIN_PATH, array( 'WP_Unpublish', 'uninstall' ) );
+		register_uninstall_hook( WP_UNPUBLISH_PLUGIN_PATH, array( 'WP_Unpublish', 'uninstall' ) );
 
 		// Add translation
 		add_action( 'init', array( $this, 'load_textdomain' ), 0, 0 );
@@ -27,7 +27,7 @@ class WP_Unpublish {
 	*******************************************************************/
 
 	public static function uninstall() {
-		include_once UNPUBLISH_PLUGIN_PATH . 'uninstall.php';
+		include_once WP_UNPUBLISH_PLUGIN_PATH . 'uninstall.php';
 	}
 
 	public function load_textdomain() {
@@ -72,7 +72,7 @@ class WP_Unpublish {
 		if ( 'post.php' === $hook || 'post-new.php' === $hook || 'edit.php' === $hook ) {
 			$debug   = apply_filters( 'wp_unpublish_debug', false );
 			$js_ext  = ( $debug ) ? '.min.js' : '.js';
-			$version = filemtime( UNPUBLISH_PLUGIN_PATH . '/js/main' . $js_ext );
+			$version = filemtime( WP_UNPUBLISH_PLUGIN_PATH . '/js/main' . $js_ext );
 			$params  = array(
 				'unpublish'       => __( 'Unpublished', 'wp-unpublish' ),
 				'saveUnpublished' => __( 'Save Unpublished', 'wp-unpublish' ),
@@ -89,7 +89,7 @@ class WP_Unpublish {
 				$params['screen'] = 'list';
 			}
 
-			wp_enqueue_script( 'wp-unpublish-script', UNPUBLISH_PLUGIN_URL . '/js/main' . $js_ext, array( 'jquery' ), $version, true );
+			wp_enqueue_script( 'wp-unpublish-script', WP_UNPUBLISH_PLUGIN_URL . '/js/main' . $js_ext, array( 'jquery' ), $version, true );
 			wp_localize_script( 'wp-unpublish-script', 'WP_Unpublish', $params );
 		}
 	}
