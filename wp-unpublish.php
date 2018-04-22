@@ -1,7 +1,7 @@
 <?php
 /**
 Plugin Name: WP-Unpublish
-Plugin URI: https://truerun.com/
+Plugin URI: https://froger.me/
 Description: Adds the post status Unpublished.
 Version: 1.0
 Author: Alexandre Froger
