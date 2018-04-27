@@ -8,7 +8,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-WP-Unpublish adds a post status "Unpublished" to your Wordpress Posts.
+WP-Unpublish adds a post status "Unpublished" to your WordPress Posts.
 
 == Description ==
 
@@ -41,7 +41,7 @@ This section describes how to install the plugin and get it working.
 
 = What happens when I deactivate the plugin? =
 
-When deactivated, all the posts maked Unpublished are not accessible anymore in the wordpress Admin Dashboard.  
+When deactivated, all the posts maked Unpublished are not accessible anymore in the WordPress Admin Dashboard.  
 
 = What happens when I uninstall the plugin? =
 
