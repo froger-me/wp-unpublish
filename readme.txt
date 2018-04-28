@@ -41,7 +41,7 @@ This section describes how to install the plugin and get it working.
 
 = What happens when I deactivate the plugin? =
 
-When deactivated, all the posts maked Unpublished are not accessible anymore in the WordPress Admin Dashboard.  
+When deactivated, all the posts maked Unpublished are not accessible anymore in the wordpress Admin Dashboard.  
 
 = What happens when I uninstall the plugin? =
 

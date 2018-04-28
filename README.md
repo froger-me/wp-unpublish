@@ -24,7 +24,7 @@ Upload the plugin files to the `/wp-content/plugins/wp-unpublish` directory of y
 
 ### Deactivate and Uninstall
 
-When deactivated, all the posts maked Unpublished are not accessible anymore in the wordPress Admin Dashboard.  
+When deactivated, all the posts maked Unpublished are not accessible anymore in the wordpress Admin Dashboard.  
 When uninstalled, all the posts maked Unpublished are marked Private.
 
 ## Hooks - filters
