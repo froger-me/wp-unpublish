@@ -71,7 +71,7 @@ class WP_Unpublish {
 
 		if ( 'post.php' === $hook || 'post-new.php' === $hook || 'edit.php' === $hook ) {
 			$debug   = apply_filters( 'wp_unpublish_debug', false );
-			$js_ext  = ( $debug ) ? '.min.js' : '.js';
+			$js_ext  = ( $debug ) ? '.js' : '.min.js';
 			$version = filemtime( WP_UNPUBLISH_PLUGIN_PATH . '/js/main' . $js_ext );
 			$params  = array(
 				'unpublish'       => __( 'Unpublished', 'wp-unpublish' ),

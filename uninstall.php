@@ -8,4 +8,4 @@ global $wpdb;
 
 $sql = "UPDATE FROM $wpdb->posts SET `post_status` = 'private' WHERE `post_status` = 'unpublish'";
 
-$wpdb->query( $sql );
+$wpdb->query( $sql );// @codingStandardsIgnoreLine

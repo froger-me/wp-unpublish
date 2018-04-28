@@ -1,6 +1,6 @@
 # WP-Unpublish - simple & useful post status for your workflow
 
-WP-Unpublish adds a post status "Unpublished" to your Wordpress Posts.
+WP-Unpublish adds a post status "Unpublished" to your WordPress Posts.
 
 Consider the 8 default post statuses that WordPress uses by default:
 - **Publish**: Viewable by everyone. (publish)
@@ -20,7 +20,7 @@ This is where the **Unpublished** (unpublish) post status provided by this plugi
 It allows content publishers to assign a dedicated status to content they desire not to be published, and avoid assigning a semantically inaccurate status.
 
 ### Installation
-Upload the plugin files to the `/wp-content/plugins/wp-unpublish` directory of your Wordpress installation.
+Upload the plugin files to the `/wp-content/plugins/wp-unpublish` directory of your WordPress installation.
 
 ### Deactivate and Uninstall
 
