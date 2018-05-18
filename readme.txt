@@ -1,4 +1,4 @@
-=== WP-Unpublish ===
+=== WP Unpublish ===
 Contributors: frogerme
 Tags: workflow, post status, publication
 Requires at least: 4.9.5
@@ -8,7 +8,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-WP-Unpublish adds a post status "Unpublished" to your WordPress Posts.
+WP Unpublish adds a post status "Unpublished" to your WordPress Posts.
 
 == Description ==
 
