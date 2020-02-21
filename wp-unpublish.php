@@ -2,13 +2,13 @@
 /**
 Plugin Name: WP-Unpublish
 Plugin URI: https://github.com/froger-me/wp-unpublish
-Description: Adds the post status Unpublished.
-Version: 1.0
+Description: Adds the post status Unpublished (Classic Editor).
+Version: 1.1.1
 Author: Alexandre Froger
 Author URI: https://froger.me/
 Text Domain: wp-unpublish
 Domain Path: /languages
-WC tested up to: 3.3.4
+WC tested up to: 3.9.2
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

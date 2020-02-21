@@ -2,13 +2,13 @@
 Contributors: frogerme
 Tags: workflow, post status, publication
 Requires at least: 4.9.5
-Tested up to: 4.9.5
+Tested up to: 5.0
 Stable tag: trunk
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-WP Unpublish adds a post status "Unpublished" to your WordPress Posts.
+WP Unpublish adds a post status "Unpublished" to your WordPress Posts (Classic Editor).
 
 == Description ==
 
@@ -48,6 +48,12 @@ When deactivated, all the posts maked Unpublished are not accessible anymore in 
 When uninstalled, all the posts maked Unpublished are marked Private.
 
 == Changelog ==
+= 1.1.1 =
+* Fix warning on non-post edit pages
+* WC tested up to: 3.9.2
+
+= 1.1 =
+* Bump version and support notice for WordPress 5.0
 
 = 1.0 =
 * First version

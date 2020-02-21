@@ -58,7 +58,7 @@ class WP_Unpublish {
 
 		if ( 'unpublish' !== $arg ) {
 
-			if ( 'unpublish' === $post->post_status ) {
+			if ( $post && 'unpublish' === $post->post_status ) {
 
 				return array( __( 'Unpublished', 'wp-unpublish' ) );
 			}
